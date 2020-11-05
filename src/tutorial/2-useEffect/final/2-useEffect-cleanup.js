@@ -17,7 +17,7 @@ const UseEffectCleanup = () => {
       console.log('cleanup');
       window.removeEventListener('resize', checkSize);
     };
-  }, []);
+  } );
   console.log('render');
   return (
     <>
